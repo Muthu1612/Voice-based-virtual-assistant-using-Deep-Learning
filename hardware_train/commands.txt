@@ -1,0 +1,4 @@
+python -m spacy train config.cfg --output ./ --paths.train ./train.spacy --paths.dev ./dev.spacy
+
+
+python -m spacy init fill-config base_config.cfg config.cfg
